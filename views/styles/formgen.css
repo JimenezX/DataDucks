@@ -1,0 +1,79 @@
+/* Diseño general */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.div-gen{
+    margin: auto;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+.input-gen{
+    width: 180px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom:20px ;
+    font-family: 'Quicksand';
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.button-gen{
+   height: 95px;
+   width: 95px;
+   border: solid 2px black;
+   border-radius: 50px;
+   font-size: 17px;
+   color: black;
+   font-family: 'Quicksand';
+   background-color: rgb(255, 230, 41);
+   transition: .5s;
+}
+.button-gen:hover{
+    color: rgb(255, 230, 41);
+    background-color: black;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.label-gen{
+    font-family: 'Quicksand';
+    font-size: 18px;
+
+}
+
+.header-create{
+    width: 100%;
+    height: 9vw;
+    text-align: center;
+    color: rgb(247,172,34);
+}
+.h1-create{
+    font-size: 4vw;
+    font-family: 'Quicksand';
+}
+
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Quicksand Regular'), local('Quicksand-Regular'), url(./quicksand/Quicksand-Regular.otf) format('TrueType');
+}
+/* Se acaba diseño general */
+/* Inicia Estilo Login */
+.input-email-login{
+    margin-bottom: 90px;
+}
+.input-password-login{
+    margin-bottom: 60px;
+}
+/* Acaba Estilo Login */
