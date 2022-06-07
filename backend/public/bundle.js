@@ -1,0 +1,1 @@
+document.getElementById("form-crear").addEventListener("submit",(e=>{const t=document.getElementById("input-name").value,n=document.getElementById("input-lastn").value,u=document.getElementById("input-email").value,l=document.getElementById("input-password").value;console.log(t,n,u,l),e.preventDefault()}));
